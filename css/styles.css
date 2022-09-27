@@ -1,0 +1,49 @@
+body{ font-family: sans-serif;
+background-color: rgb(98, 15, 214);
+
+}
+
+nav a{
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: blue;
+    color:white;
+}
+.login {
+    color:rgb(195, 36, 231)
+}
+.box {
+    border:1px solid black; 
+    margin: 6em;
+    padding: 3em;
+}
+.small {
+    width:230px;
+    height: 230px;
+}
+.big {
+    width: 250px;
+    
+}
+
+.products {
+    display: flex;
+    width: 100%;
+    max-width: 1050px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: rgb(231, 8, 8);
+}
+.card {
+    width: 160px;
+    flex-basis: 32%;
+    margin-top: 50px;
+}
+.card img {
+    height: 175px;
+}
+.login .box {
+
+    background-color: rgb(221, 141, 238);
+}
